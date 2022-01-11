@@ -1,0 +1,159 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.page-header {
+  display: flex;
+  padding: 30px;
+  font-size: 1.25em;
+  align-items: center;
+  background-color: #0b373d;
+}
+
+.header-links {
+  margin-left: auto;
+}
+
+.header-logo {
+  cursor: pointer;
+}
+
+.search {
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+
+.search-input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.company-wrapper {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #fafafa;
+  box-shadow: 0 3px 3px -2px #0003, 0 3px 4px 0 #00000024, 0 1px 8px 0 #0000001f;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 6px;
+  box-shadow: 0 3px 3px -2px #0003, 0 3px 4px 0 #00000024, 0 1px 8px 0 #0000001f;
+}
+
+.company-info-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+.company-info-element:first-child {
+  margin-top: 20px;
+}
+
+.company-info-element-title {
+  color: #666;
+}
+
+.company-info-element-text {
+  color: #282828;
+}
+
+.company-header-text {
+  margin: 20px 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.company-no-data-text {
+  padding: 20px;
+  margin: 0;
+}
+
+.companies-wrapper {
+  padding: 20px;
+}
+
+.header-link-text {
+  color: #fff;
+  cursor: pointer;
+}
+.header-link-text:last-child {
+  margin-left: 20px;
+}
+
+.table-wrapper {
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 3px 3px -2px #0003, 0 3px 4px 0 #00000024, 0 1px 8px 0 #0000001f;
+}
+
+.table {
+  width: 100%;
+  border-radius: 10px;
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+thead {
+  color: #fff;
+  background-color: #53bdcb;
+}
+
+.table-header {
+  padding: 10px;
+  font-size: 1.25em;
+}
+
+.table-element {
+  padding: 20px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.highlights-wrapper {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 3px 3px -2px #0003, 0 3px 4px 0 #00000024, 0 1px 8px 0 #0000001f;
+}
+
+.highlights-type-title {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.highlights-info {
+  margin: 20px 10px;
+  padding: 0 10px;
+}
+.highlights-info:last-child {
+  margin: 20px 10px 0;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,163 @@
+@import "./variables/variables.scss";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+//header
+.page-header {
+  display: flex;
+  padding: 30px;
+  font-size: 1.25em;
+  align-items: center;
+  background-color: $page-header-background-color;
+}
+
+.header-links {
+  margin-left: auto;
+}
+
+.header-logo {
+  cursor: pointer;
+}
+
+.search {
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  padding: 10px;
+  border-radius: $border-radius;
+  background-color: $white;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+
+.search-input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+//company element
+.company-wrapper {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: $border-radius;
+  background-color: $company-wrapper-background-color;
+  box-shadow: $boxShadow;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: $border-radius;
+  box-shadow: $boxShadow;
+}
+
+.company-info-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 0 20px;
+
+  &:first-child {
+    margin-top: 20px;
+  }
+}
+
+.company-info-element-title {
+  color: $company-info-element-title-color;
+}
+
+.company-info-element-text {
+  color: $company-info-element-text-color;
+}
+
+.company-header-text {
+  margin: 20px 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.company-no-data-text {
+  padding: 20px;
+  margin: 0;
+}
+//homepage
+.companies-wrapper {
+  padding: 20px;
+}
+
+.header-link-text {
+  color: $white;
+  cursor: pointer;
+
+  &:last-child {
+    margin-left: 20px;
+  }
+}
+
+//table
+.table-wrapper {
+  border-radius: $border-radius;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: $boxShadow;
+}
+.table {
+  width: 100%;
+  border-radius: 10px;
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+thead {
+  color: $white;
+  background-color: $table-header-background-color;
+}
+.table-header {
+  padding: 10px;
+  font-size: 1.25em;
+}
+.table-element {
+  padding: 20px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: $table-body-element-background-color--even;
+}
+
+//highlights
+.highlights-wrapper {
+  margin: 20px;
+  padding: 20px;
+  border-radius: $border-radius;
+  box-shadow: $boxShadow;
+}
+
+.highlights-type-title {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: $highlights-type-title-border-bottom;
+}
+
+.highlights-info {
+  margin: 20px 10px;
+  padding: 0 10px;
+
+  &:last-child {
+    margin: 20px 10px 0;
+  }
+}
